@@ -5,5 +5,9 @@ module.exports = {
     appDir:true,
   },
 
+  images:{
+    domains:["link.images.pexels.com"],
+  },
 
-}
+
+};
