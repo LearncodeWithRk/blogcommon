@@ -8,7 +8,8 @@ function onPublicAccessOnly() {
   }
 
   if (!projectId || !dataset){
-    throw new Error(`mission project of dataset. check your sanity.json or :env`);
+    throw new Error(`mission project of dataset. check your sanity.json or :env`
+    );
   }
 
   export const usePreview = definePreview({
