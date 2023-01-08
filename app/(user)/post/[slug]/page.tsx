@@ -14,6 +14,8 @@ type Props = {
     };
 };
 
+export const revalidate = 30; // revalidate this page every 30 seconds
+
 export async function generateStaticParams() {
     const query =groq` *[_type =='post']
     {

@@ -15,6 +15,8 @@ const query =groq`
     
 `;
 
+export const revalidate = 30; // revalidate this page every 30 seconds
+
 
 export default async function Homepage(){
 if (previewData()){
